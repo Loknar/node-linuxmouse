@@ -1,6 +1,6 @@
 # linuxmouse
 
-A node.js module that does virtual mouse input on Ubuntu using xdotools.
+A node.js module that does virtual mouse input on Ubuntu.
 
 ## Dependencies
 Uses `xdotool` to manipulate the mouse, you need to install it with the following command:
