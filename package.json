@@ -1,0 +1,26 @@
+{
+  "name": "linuxmouse",
+  "version": "0.0.1",
+  "description": "Enables you to create virtual mouse input on Ubuntu using xdotool.",
+  "author": "Sveinn Floki Gudmundsson <svefgud@gmail.com>",
+  "contributors": [{
+    "name": "Sveinn Floki Gudmundsson",
+    "email": "svefgud@gmail.com"
+  }],
+  "repository" :
+  { "type" : "git",
+    "url" : "https://github.com/Loknar/node-linuxmouse.git"
+  },
+  "main": "macmouse.js",
+  "keywords": [
+    "native mouse",
+    "mac os x"
+  ],
+  "bugs": {
+    "url": "https://github.com/Loknar/node-linuxmouse/issues"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "license": "MIT"
+}
