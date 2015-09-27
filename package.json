@@ -1,6 +1,6 @@
 {
   "name": "linuxmouse",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Enables you to create virtual mouse input on Linux using xdotool.",
   "author": "Sveinn Floki Gudmundsson <svefgud@gmail.com>",
   "contributors": [{
