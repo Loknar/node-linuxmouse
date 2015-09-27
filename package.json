@@ -14,7 +14,8 @@
   "main": "linuxmouse.js",
   "keywords": [
     "native mouse",
-    "mac os x"
+    "X11",
+    "linux"
   ],
   "bugs": {
     "url": "https://github.com/Loknar/node-linuxmouse/issues"
