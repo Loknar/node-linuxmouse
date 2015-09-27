@@ -1,9 +1,9 @@
 # linuxmouse
 
-A node.js module that does virtual mouse input on Ubuntu. A sibling module of [macmouse](https://github.com/Loknar/node-macmouse). Implements the same functions, but works on X11 instead of Mac OS X Cocoa.
+A node.js module that does virtual mouse input on Ubuntu/Linux distros. A sibling module of [macmouse](https://github.com/Loknar/node-macmouse). Implements the same functions, but works on X11 instead of Mac OS X Cocoa.
 
 ## Dependencies
-Uses `xdotool` to manipulate the mouse, you need to install it with the following command:
+Uses the command line tool `xdotool` to manipulate the mouse, you need to install it with the following command:
 
 ```
 $ sudo apt-get install xdotool
