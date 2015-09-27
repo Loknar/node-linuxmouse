@@ -1,5 +1,7 @@
 # linuxmouse
 
+[![NPM](https://nodei.co/npm/linuxmouse.png)](https://www.npmjs.com/package/linuxmouse)
+
 A node.js module that does virtual mouse input on Ubuntu/Linux distros. A sibling module of [macmouse](https://github.com/Loknar/node-macmouse). Implements the same functions, but works on X11 instead of Mac OS X Cocoa.
 
 ## Dependencies
