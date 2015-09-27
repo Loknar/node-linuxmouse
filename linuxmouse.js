@@ -192,6 +192,7 @@ var DoubleClick = function() {
  *         vertical and horizontal integers
  */
 var Scroll = function(vertical, horizontal) {
+    if (typeof horizontal === 'undefined') horizontal = 0;
     if (typeof vertical == 'number' || typeof horizontal == 'number') {
         var i;
         if (0 < vertical) {
