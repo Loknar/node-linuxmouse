@@ -33,8 +33,6 @@ var getRealPos = function() {
     var posY = parseInt(info.match(regexY)[1]);
     return { x: posX, y: posY };
 }
-//var pos = getRealPos();
-//console.log(pos);
 
 /**
  * Usage:  var pos = mouse.getPos();
@@ -67,7 +65,6 @@ var Place = function(x, y) {
         execSync('xdotool mousemove '+x+' '+y, { encoding: 'utf8' });
     }
 }
-//Place(1200, 500)
 
 /**
  * Usage:  mouse.DragPlace(x, y);
@@ -231,7 +228,6 @@ var quit = function() {
     // literally does nothing
     return
 }
-
 
 module.exports = {
     init: init,
