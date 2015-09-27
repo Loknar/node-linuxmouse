@@ -193,6 +193,7 @@ var DoubleClick = function() {
  */
 var Scroll = function(vertical, horizontal) {
     if (typeof vertical == 'number' || typeof horizontal == 'number') {
+        var i;
         if (0 < vertical) {
             for (i = 0; i < vertical; i++) {
                 execSync('xdotool click 5', { encoding: 'utf8' });
